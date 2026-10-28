@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "forex-quotes"
+version = "0.0.1"
+description = "Realtime forex quote API client"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jacob Davis", email = "contact@1forge.com" }]
+
+[project.urls]
+Homepage = "https://1forge.com"
+
+[tool.hatch.build.targets.wheel]
+packages = ["forex_quotes"]
